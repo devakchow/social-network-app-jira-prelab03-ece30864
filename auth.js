@@ -8,7 +8,7 @@ describe("Protected Component or Page", () => {
   it("returns session data when authenticated", async () => {
     // Stub a fake logged-in user session
     auth.mockResolvedValue({
-      user: { name: "Test User", email: "test@example.com" },
+      user: { Firstname: "Test User", Lastname: "Appleseed", email: "test@example.com" },
     });
 
     const session = await auth();
