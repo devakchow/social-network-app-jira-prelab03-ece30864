@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
 from typing import Dict, List, Optional
-
+import pandas as pd
 
 class MessageStub:
     """Represents a dummy data model for a single direct message."""
