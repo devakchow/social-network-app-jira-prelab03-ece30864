@@ -1,4 +1,5 @@
 import { auth } from "@/auth";
+import NextAuth from "next-auth"
 
 jest.mock("@/auth", () => ({
   auth: jest.fn(),
